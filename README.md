@@ -28,6 +28,7 @@ Below are seperate examples:
 
 **Router:**
     # Created user (user.py) and product(product.py) router inside routers folder.
+    
     # Note: added empty __init__.py file inside routers folder, indicates this is a package.
 
     # practice_router.py to test router.
