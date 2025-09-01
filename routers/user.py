@@ -4,4 +4,4 @@ router = APIRouter(prefix="/api", tags=["User"])
 
 @router.get("/user")
 def getUser():
-    return {"userID", "user_123"}
+    return {"userID" : "user_123"}
