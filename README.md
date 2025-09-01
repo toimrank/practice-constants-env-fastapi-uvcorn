@@ -37,3 +37,7 @@ Below are seperate examples:
 **Scheduler:**
     # Test Scheduler with FastAPI
     uvicorn practice_scheduler:app --reload
+
+**Depends / Dependency:**
+    # Reusable logic that you can attach to your routes (or even entire routers) so you don't have to repeat the same code everywhere.
+    uvicorn practice_router_dependencies:app --reload    
