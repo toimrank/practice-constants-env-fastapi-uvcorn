@@ -3,7 +3,7 @@ Repository to gain a deep understanding of constants, environment variables, Fas
 
 Below are seperate examples:
 
-Constants:
+**Constants:**
     # Dedicated file for constants.
     # This is Optional to Use 'typing.Final' for type safety.
     constants.py
@@ -17,16 +17,16 @@ Constants:
     # Test constants using practice_constants_env_main.py file.
     Command: py practice_constants_env_main.py
 
-Environment Configurations:
+**Environment Configurations:**
     # Environment variables can be read from operating system variables or .env file.
 
     Test environment variable using practice_constants_env_main.py file.
     Command: py practice_constants_env_main.py    
 
-FastAPI:
+**FastAPI:**
     uvicorn practice_fastapi:app --reload
 
-Router:
+**Router:**
     # Created user and product router.
     /routers
         /user.py
@@ -35,6 +35,6 @@ Router:
     # practice_router.py to test router.
     uvicorn practice_router:app --reload    
 
-Scheduler:
+**Scheduler:**
     # Test Scheduler with FastAPI
     uvicorn practice_scheduler:app --reload
