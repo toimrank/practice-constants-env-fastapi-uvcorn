@@ -29,8 +29,10 @@ Below are seperate examples:
 **Router:**
     # Created user and product router.
     /routers
+        /__init__.py
         /user.py
         /product.py
+    Note: __init__.py can be empty, indicates this is a package.
 
     # practice_router.py to test router.
     uvicorn practice_router:app --reload    
