@@ -27,12 +27,8 @@ Below are seperate examples:
     uvicorn practice_fastapi:app --reload
 
 **Router:**
-    # Created user and product router.
-        /routers
-            /__init__.py
-                /user.py
-                /product.py
-            Note: __init__.py can be empty, indicates this is a package.
+    # Created user (user.py) and product(product.py) router inside routers folder.
+    # Note: added empty __init__.py file inside routers folder, indicates this is a package.
 
     # practice_router.py to test router.
     uvicorn practice_router:app --reload    
