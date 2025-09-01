@@ -1,6 +1,6 @@
 import constants
 from group_constants import Database, Server
-from status import Status
+from enum_status import Status
 
 ''' START - Constants '''
 # From constants.py
